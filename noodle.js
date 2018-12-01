@@ -119,7 +119,7 @@ function handleChat(str){
 
 function randSpeak(){
 	handleChat('');
-	setTimeout(randSpeak,Math.random()*5000);
+	setTimeout(randSpeak,Math.random()*7000);
 }
 
 randSpeak();
